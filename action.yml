@@ -1,0 +1,15 @@
+name: 'Execute Whitelist'
+description: 'Secure workflow executions with a whitelist'
+inputs:
+  whitelisted-github-ids:
+    description: 'The whitelisted github ids, set as env'
+    required: true
+  token:
+    description: 'The GITHUB_TOKEN'
+    required: true
+branding:
+  color: "red"
+  icon: "lock"
+runs:
+  using: 'node20'
+  main: 'dist/index.js'

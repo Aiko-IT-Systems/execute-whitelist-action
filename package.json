@@ -1,0 +1,44 @@
+{
+  "name": "execute-whitelist-action",
+  "version": "1.0.10",
+  "description": "Action to whitelist executions",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src\\index.ts --license LICENSE.md"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Lala Sabathil",
+    "email": "lala@pycord.dev",
+    "url": "https://github.com/Lulalaby"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aiko-IT-Systems/execute-whitelist-action"
+  },
+  "devDependencies": {
+    "@octokit/types": "13.5.0",
+    "@types/node": "22.4.0",
+    "typescript": "5.5.4"
+  },
+  "dependencies": {
+    "@actions/artifact": "2.1.9",
+    "@actions/attest": "1.3.1",
+    "@actions/cache": "3.2.4",
+    "@actions/core": "1.10.1",
+    "@actions/exec": "1.1.1",
+    "@actions/expressions": "0.3.12",
+    "@actions/github": "6.0.0",
+    "@actions/glob": "0.5.0",
+    "@actions/http-client": "2.2.2",
+    "@actions/io": "1.1.3",
+    "@actions/languageserver": "0.3.12",
+    "@actions/languageservice": "0.3.12",
+    "@actions/tool-cache": "2.0.1",
+    "@actions/workflow-parser": "0.3.12",
+    "@octokit/webhooks-definitions": "3.68.1",
+    "ansi-styles": "6.2.1"
+  }
+}
